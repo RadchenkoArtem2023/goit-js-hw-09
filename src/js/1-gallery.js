@@ -91,3 +91,8 @@ images.forEach(image => {
   const galleryItem = createGalleryItem(image);
   gallery.appendChild(galleryItem);
 });
+
+const lightbox = new SimpleLightbox('.gallery a', {
+  captionsData: 'alt',
+  captionDelay: 250,
+});
