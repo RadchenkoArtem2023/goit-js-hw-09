@@ -95,4 +95,6 @@ images.forEach(image => {
 const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
+  overlay: true,
+  overlayOpacity: 0.7,
 });
